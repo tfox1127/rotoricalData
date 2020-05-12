@@ -1,0 +1,34 @@
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 4px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+table td:nth-child(n+19){  /* this will go to the 2nd column of a table directly */
+  text-align: right;
+}
+
+#indextable .floater {
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+th {
+  background-color: #bbb;
+  color: black;
+}
+
+table tr:nth-child(even) {
+  background-color: #eee;
+}
+table tr:nth-child(odd) {
+  background-color: #fff;
+}
